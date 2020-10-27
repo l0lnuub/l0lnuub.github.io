@@ -1,0 +1,80 @@
+p {
+  color: green;
+  text-indent: 10px;
+}
+body {
+  font-family: "Arial", sans-serif;
+}
+
+a:link {
+  color: MediumSeaGreen;
+  text-decoration: none;
+}
+a:visited {
+  color: darkgreen;
+  text-decoration: none;
+}
+a:hover {
+  color: tomato;
+  text-decoration: none;
+}
+a:active {
+  color: navy;
+  text-decoration: none;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  vertical-align: middle;
+  horizontal-align: center;
+  padding: 20px;
+}
+
+th {
+  background-color: MediumSeaGreen;
+}
+
+tr:nth-child(even) {
+  background-color: #DDDDDD;
+}
+
+tr:hover {
+  background-color: #DDDFFF;
+}
+
+#second-heading {
+  /*Underline*/
+  text-decoration: underline;
+}
+.special-div {
+  text-align: right;
+  background-color: powderblue;
+  border: 5px dashed #634411;
+  padding: 5px;
+  margin: 5px;
+}
+p.center {
+  text-align: center;
+  color: red;
+}
+.box {
+  width: 50%;
+  border: 15px solid MediumSeaGreen;
+  padding: 25px;
+  margin: 20px;
+  height: 200px;
+  border-radius: 3px;
+  display: block;
+  outline: 3px solid Tomato;
+  outline-offset: 2px;
+}
+.border {
+  border-style: groove;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+}
